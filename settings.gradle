@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Real_app"
+rootProject.name = "Verify_It"
 include ':app'

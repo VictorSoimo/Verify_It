@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Real_app</string>
+
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -10,6 +10,9 @@
     <string name="rb_admin">Admin</string>
     <string name="register_button">Register</string>
     <string name="login_button">Login</string>
-    <string name="appname">VERIFY IT</string>
+    <string name="app_name">VERIFY IT</string>
     <string name="user_text">Enter employee details to register them for the service</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>
