@@ -12,4 +12,5 @@
     <string name="login_button">Login</string>
     <string name="appname">VERIFY IT</string>
     <string name="user_text">Enter employee details to register them for the service</string>
+    <string name="lorem_ipsum">LOREM IPSUM</string>
 </resources>
