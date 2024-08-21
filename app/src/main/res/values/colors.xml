@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="selector_background">#009ca7</color>
     <color name="radiogroup">#43df8b</color>
-    <color name="bottom_navbar">black</color>
+    <color name="bottom_navbar">#FF000000</color>
     <color name="top_navbar">#009ca7</color>
     <color name="body">#003153</color>
 </resources>

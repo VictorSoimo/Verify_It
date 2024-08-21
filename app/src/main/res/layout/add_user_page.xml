@@ -12,11 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:layout_width="160dp"
             android:layout_height="100dp"
+
+            android:importantForAccessibility="no"
             android:src="@drawable/logo" />
 
         <TextView
@@ -36,39 +39,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="Email"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="20sp"
             android:background="@drawable/input_background"
             android:padding="16dp"
             android:inputType="textEmailAddress"
-            android:id="@+id/email_input" />
+            android:id="@+id/email_input"
+            tools:ignore="VisualLintTextFieldSize" />
 
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="46dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="20sp"
             android:background="@drawable/input_background"
             android:padding="16dp"
             android:inputType="textPassword"
-            android:id="@+id/password_input" />
+            android:id="@+id/password_input"
+            tools:ignore="Autofill,VisualLintTextFieldSize" />
 
         <Button
+            android:id="@+id/login_user_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log in"
-            android:background="@drawable/button_background"
-            android:textColor="#0f4a19"
-            android:padding="18dp"
             android:layout_marginTop="32dp"
-            android:textSize="20sp"
-            android:id="@+id/login_user_btn"/>
+            android:background="@drawable/button_background"
+            android:padding="18dp"
+            android:text="@string/log_in"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

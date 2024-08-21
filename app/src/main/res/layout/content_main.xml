@@ -34,7 +34,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:text="@string/appname"
+            android:text="@string/app_name"
             android:textColor="#424242"
             android:textSize="24sp"
             android:textStyle="bold"
