@@ -60,7 +60,7 @@
             android:textSize="20sp"
             android:background="@drawable/input_background"
             android:padding="16dp"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:id="@+id/last_name_input" />
 
         <EditText
